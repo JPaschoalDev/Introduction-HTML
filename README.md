@@ -19,6 +19,17 @@ Documentar minha jornada de aprendizado em HTML, CSS, JavaScript e outras tecnol
 │   │   └── style.css
 │   ├── images/
 │   └── README.md
+│
+├── Aula-3/
+│   ├── index.html
+│   ├── Pages/
+│   │   ├── sobre.html
+│   │   ├── servicos.html
+│   │   └── contato.html
+│   ├── Styles/
+│   │   └── style.css
+│   ├── images/
+│   └── README.md
 └── README.md   (este arquivo)
 ```
 
@@ -28,6 +39,7 @@ Documentar minha jornada de aprendizado em HTML, CSS, JavaScript e outras tecnol
 |------|-----------|-------------|
 | [Aula 1](./aula-1) | Conceitos básicos de HTML | HTML PURO |
 | [Aula 2](./aula-2) | Página de perfil pessoal (cartão de visitas online) | HTML, CSS (Flexbox) |
+| [Aula 3](./aula-3) | Site institucional fictício de uma academia, com múltiplas páginas e navegação entre elas | HTML, CSS (Flexbox, Grid, transições e animações), JavaScript |
 
 > Cada pasta de aula possui seu próprio `README.md` com detalhes específicos do que foi desenvolvido e aprendido.
 
@@ -35,6 +47,7 @@ Documentar minha jornada de aprendizado em HTML, CSS, JavaScript e outras tecnol
 
 - HTML5
 - CSS3
+- JavaScript
 - (outras linguagens/frameworks serão adicionados conforme o repositório evoluir)
 
 ## ▶️ Como usar
