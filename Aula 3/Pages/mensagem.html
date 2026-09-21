@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerFit Academia - Envie uma Mensagem</title>
+    <link rel="stylesheet" href="../Styles/style.css">
+</head>
+<body>
+
+<header>
+    <h1>PowerFit Academia</h1>
+    <nav>
+        <ul>
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="mensagem.html">Fale Conosco</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <h2>Fale Conosco</h2>
+    <p>Preencha o formulário abaixo e retornaremos o mais rápido possível.</p>
+
+    <form id="form-contato" action="#" method="post">
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+
+        <label for="telefone">Telefone:</label>
+        <input type="tel" id="telefone" name="telefone" placeholder="(27) 99999-0000">
+
+        <label for="assunto">Assunto:</label>
+        <select id="assunto" name="assunto" required>
+            <option value="">Selecione um assunto</option>
+            <option value="matricula">Matrícula</option>
+            <option value="planos">Planos e Preços</option>
+            <option value="aula-experimental">Aula Experimental</option>
+            <option value="outro">Outro</option>
+        </select>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="6" placeholder="Escreva sua mensagem aqui..." required></textarea>
+
+        <div>
+        <button type="submit">Enviar Mensagem</button>
+        </div>
+
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2026 PowerFit Academia</p>
+</footer>
+
+<script>
+    const form = document.getElementById('form-contato');
+
+    form.addEventListener('submit', function (evento) {
+        evento.preventDefault();
+        alert('Mensagem enviada com sucesso! Em breve entraremos em contato.');
+        form.reset();
+    });
+</script>
+
+</body>
+</html>
