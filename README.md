@@ -31,6 +31,17 @@ Documentar minha jornada de aprendizado em HTML, CSS, JavaScript e outras tecnol
 │   │   └── style.css
 │   ├── images/
 │   └── README.md
+│
+├── DevBite/
+│   ├── css/
+│   │   ├── style.css
+│   ├── img/
+│   │   ├── "IMAGENS DE TESTE"
+│   ├── admin.html
+│   ├── checkout.html
+│   ├── index.html
+│   └── README.md
+│
 └── README.md   (este arquivo)
 ```
 
