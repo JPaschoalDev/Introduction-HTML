@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBite - Finalizar Pedido</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">DevBite</div>
+    <nav>
+        <ul>
+            <li><a href="index.html" id="link-cardapio">Cardápio</a></li>
+            <li><a href="checkout.html" id="link-carrinho">Meu Carrinho</a></li>
+            <li><a href="admin.html" id="link-admin">Área Restrita</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+    <section>
+        <h2>Meu Carrinho</h2>
+        <div class="tabela-container">
+            <table id="tabela-carrinho">
+                <thead>
+                <tr>
+                    <th>Produto</th>
+                    <th>Preço Unitário</th>
+                    <th>Quantidade</th>
+                    <th>Subtotal</th>
+                    <th>Ação</th>
+                </tr>
+                </thead>
+                <tbody id="corpo-carrinho">
+                <tr>
+                    <td>Java Burger</td>
+                    <td>R$ 25,90</td>
+                    <td>2</td>
+                    <td>R$ 51,80</td>
+                    <td><button class="btn btn-danger" id="btn-remover-1" data-id="1">Remover</button></td>
+                </tr>
+                <tr>
+                    <td>Café Debug</td>
+                    <td>R$ 6,50</td>
+                    <td>1</td>
+                    <td>R$ 6,50</td>
+                    <td><button class="btn btn-danger" id="btn-remover-3" data-id="3">Remover</button></td>
+                </tr>
+                <tr>
+                    <td>Brownie Commit</td>
+                    <td>R$ 12,00</td>
+                    <td>1</td>
+                    <td>R$ 12,00</td>
+                    <td><button class="btn btn-danger" id="btn-remover-5" data-id="5">Remover</button></td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <p class="total">Valor Total: <span id="valor-total">R$ 70,30</span></p>
+    </section>
+
+    <section>
+        <h2>Dados de Entrega e Pagamento</h2>
+        <form id="form-checkout">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome">
+
+            <label for="endereco">Endereço</label>
+            <input type="text" id="endereco" name="endereco">
+
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone">
+
+            <label for="pagamento">Método de Pagamento</label>
+            <select id="pagamento" name="pagamento">
+                <option value="pix">Pix</option>
+                <option value="cartao">Cartão</option>
+                <option value="dinheiro">Dinheiro</option>
+            </select>
+
+            <button type="submit" class="btn btn-primary" id="btn-finalizar">Finalizar Pedido</button>
+        </form>
+    </section>
+
+</main>
+
+<footer>
+    <p>DevBite - Código e sabor</p>
+</footer>
+
+</body>
+</html>

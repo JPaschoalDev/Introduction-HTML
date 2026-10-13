@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevBite - Cardápio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">DevBite</div>
+    <nav>
+        <ul>
+            <li><a href="index.html" id="link-cardapio">Cardápio</a></li>
+            <li><a href="checkout.html" id="link-carrinho">Meu Carrinho</a></li>
+            <li><a href="admin.html" id="link-admin">Área Restrita</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="container-cardapio">
+
+    <aside class="categorias">
+        <h2>Categorias</h2>
+        <ul id="lista-categorias">
+            <li><a href="#" id="cat-burgers">Burgers</a></li>
+            <li><a href="#" id="cat-bebidas">Bebidas</a></li>
+            <li><a href="#" id="cat-sobremesas">Sobremesas</a></li>
+        </ul>
+    </aside>
+
+    <section class="produtos" id="lista-produtos">
+
+        <article class="card-produto">
+            <img src="img/burger1.jpg" alt="Java Burger">
+            <h3>Java Burger</h3>
+            <p class="preco">R$ 25,90</p>
+            <button class="btn btn-primary" id="btn-add-1" data-id="1">Adicionar ao Carrinho</button>
+        </article>
+
+        <article class="card-produto">
+            <img src="img/burger2.jpg" alt="Bug Burger">
+            <h3>Bug Burger</h3>
+            <p class="preco">R$ 28,90</p>
+            <button class="btn btn-primary" id="btn-add-2" data-id="2">Adicionar ao Carrinho</button>
+        </article>
+
+        <article class="card-produto">
+            <img src="img/cafe.jpg" alt="Café Debug">
+            <h3>Café Debug</h3>
+            <p class="preco">R$ 6,50</p>
+            <button class="btn btn-primary" id="btn-add-3" data-id="3">Adicionar ao Carrinho</button>
+        </article>
+
+        <article class="card-produto">
+            <img src="img/refrigerante.jpg" alt="Refri Python">
+            <h3>Refri Python</h3>
+            <p class="preco">R$ 7,00</p>
+            <button class="btn btn-primary" id="btn-add-4" data-id="4">Adicionar ao Carrinho</button>
+        </article>
+
+        <article class="card-produto">
+            <img src="img/brownie.jpg" alt="Brownie Commit">
+            <h3>Brownie Commit</h3>
+            <p class="preco">R$ 12,00</p>
+            <button class="btn btn-primary" id="btn-add-5" data-id="5">Adicionar ao Carrinho</button>
+        </article>
+
+        <article class="card-produto">
+            <img src="img/sobremesa2.jpg" alt="Sorvete Deploy">
+            <h3>Sorvete Deploy</h3>
+            <p class="preco">R$ 10,50</p>
+            <button class="btn btn-primary" id="btn-add-6" data-id="6">Adicionar ao Carrinho</button>
+        </article>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>DevBite - Código e sabor</p>
+</footer>
+
+</body>
+</html>
